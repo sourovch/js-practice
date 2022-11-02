@@ -1,2 +1,2 @@
 # js-practice
-my all "Eu-It" assignments
+My all "Eu-It" assignments on Js
