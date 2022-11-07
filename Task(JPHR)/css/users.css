@@ -6,7 +6,7 @@
 
 .users > p {
     color: gray;
-    line-height: .8;
+    line-height: 1.3;
     font-size: .8rem;
     text-transform: capitalize;
 }
@@ -23,6 +23,8 @@
 .users > .w-l {
     display: inline-block;
     margin-right: 5px;
+    margin-bottom: 3px;
+    line-height: .8;
 }
 
 .users > .name {
