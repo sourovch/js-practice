@@ -2,10 +2,14 @@ const albumsBtn = document.getElementById('show-albums');
 const root = document.getElementById('root');
 const emtCont = document.getElementById('empity-cont');
 
+const lCont = document.getElementById('l-cont');
+
 albumsBtn.addEventListener('click', (e) => {
+  startLoad(lCont);
   fetch('https://jsonplaceholder.typicode.com/albums')
     .then((res) => res.json())
     .then((data) => {
+      endLoad();
       createPosts(data, 10);
     });
 });

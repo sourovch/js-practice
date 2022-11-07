@@ -12,3 +12,26 @@ function addElm(per, type, innerText, classList = [], attr = {}) {
   elm.innerText = innerText;
   per.appendChild(elm);
 }
+
+function startLoad(elm) {
+  const div = document.createElement('div');
+  div.classList.add('load', 'box');
+
+  const p = document.createElement('p');
+  p.innerText = 'Loading';
+
+  div.appendChild(p);
+
+  elm.appendChild(div);
+
+  setTimeout(() => {
+    elm.removeChild(div);
+  }, 2000);
+}
+
+function endLoad() {
+  const loads = document.querySelectorAll('.load');
+  for (let load of loads) {
+    load.remove();
+  }
+}

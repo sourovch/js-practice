@@ -2,10 +2,14 @@ const usersBtn = document.getElementById('show-users');
 const root = document.getElementById('root');
 const emtCont = document.getElementById('empity-cont');
 
+const lCont = document.getElementById('l-cont');
+
 usersBtn.addEventListener('click', (e) => {
+  startLoad(lCont);
   fetch('https://jsonplaceholder.typicode.com/users')
     .then((res) => res.json())
     .then((data) => {
+      endLoad();
       createPosts(data, 10);
     });
 });

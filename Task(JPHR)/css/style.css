@@ -134,3 +134,10 @@ h3 {
     left: 10px;
     color: gray;
 }
+
+.load {
+    display: grid;
+    place-content: center;
+    min-height: 50px;
+    margin: .8em 0;
+}
