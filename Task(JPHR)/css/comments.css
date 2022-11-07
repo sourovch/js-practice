@@ -1,0 +1,22 @@
+.comments {
+    padding: 1em 4em;
+    margin: 1em .8em;
+    position: relative;
+}
+
+.name {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+
+.email {
+    margin-top: 0;
+    font-size: .8em;
+    color: gray;
+}
+
+.body {
+    width: 70%;
+}

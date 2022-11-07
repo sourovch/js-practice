@@ -1,0 +1,16 @@
+.post {
+    padding: 1em 4em;
+    margin: 1em .8em;
+    position: relative;
+}
+
+.post p{
+    width: 85%;
+    line-height: 2;
+    color: rgb(108, 107, 107);
+}
+
+.post h2 {
+    width: 75%;
+    text-transform: capitalize;
+}

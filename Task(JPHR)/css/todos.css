@@ -1,0 +1,16 @@
+.todos {
+    padding: 1em 4em;
+    margin: 1em .8em;
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.title {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.done {
+    text-decoration: line-through;
+}

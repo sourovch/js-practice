@@ -1,0 +1,9 @@
+.albums {
+    padding: 1em 4em;
+    margin: 1em .8em;
+    position: relative;
+}
+
+.albums h1 {
+    text-transform: capitalize;
+}

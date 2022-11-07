@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-main: rgba(0, 98, 250, 0.82);
+    --color-w: rgb(240, 240, 240);
+    --color-d: rgb(10, 20, 10);
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-w);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: clamp(280px, 100%, 1100px);
+    margin: auto;
+}
+
+.box {
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+
+.nav-cont {
+    width: 85%;
+    padding: 1em 2em;
+    margin: 2em auto;
+}
+
+.nav-cont h1 {
+    font-size: 2rem;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 2em 1em;
+}
+
+.nav-list-i {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-w);
+    background-color: var(--color-main);
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: .4em;
+    padding: .5em 1em;
+    font-weight: 700;
+    width: 125px;
+    text-align: center;
+    transition: .2s all;
+}
+
+.btn:hover {
+    background-color: var(--color-w);
+    color: var(--color-d);
+    border-color: var(--color-d);
+    opacity: .8;
+}
+
+.empity-cont {
+    min-height: 500px;
+    border: 2px dashed gray;
+    display: grid;
+    place-content: center;
+    color: gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.empity-cont i {
+    font-size: 10em;
+    text-align: center;
+    opacity: .8;
+}
+
+.none {
+    display: none;
+}
+
+.btn-cont {
+    height: 100px;
+    display: grid;
+    place-content: center;
+    border: 1px solid gray;
+    margin: .8em;
+    border-radius: 10px;
+}
+
+.btn-cont .btn {
+    min-height: 50px;
+}
+
+.main-cont {
+    margin: .7em;
+}
+
+.foot-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5em auto;
+    gap: 10px;
+}
+
+.mark {
+    position: absolute;
+    top: -13px;
+    left: 10px;
+    color: gray;
+}

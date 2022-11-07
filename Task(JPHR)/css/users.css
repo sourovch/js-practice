@@ -1,0 +1,37 @@
+.users {
+    padding: 1em 4em;
+    margin: 1em .8em;
+    position: relative;
+}
+
+.users > p {
+    color: gray;
+    line-height: .8;
+    font-size: .8rem;
+    text-transform: capitalize;
+}
+
+.users > a {
+    text-decoration: none;
+    color: black;
+}
+
+.users a:hover {
+    text-decoration: underline;
+}
+
+.users > .w-l {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.users > .name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.mark {
+    top: 3px
+}
+
