@@ -25,7 +25,7 @@ function startLoad(elm) {
   elm.appendChild(div);
 
   setTimeout(() => {
-    elm.removeChild(div);
+    elm.innerHtml = '';
   }, 2000);
 }
 
