@@ -10,6 +10,7 @@ usersBtn.addEventListener('click', (e) => {
     .then((res) => res.json())
     .then((data) => {
       endLoad();
+      root.innerHTML = '';
       createPosts(data, 10);
     });
 });
