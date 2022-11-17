@@ -1,0 +1,10 @@
+.box {
+    display: grid;
+    place-content: center;
+    min-height: 600px;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+}
