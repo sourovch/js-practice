@@ -8,3 +8,7 @@
 h1 {
     font-size: 5rem;
 }
+
+button {
+    min-width: 200px;
+}

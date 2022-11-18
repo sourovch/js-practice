@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circle loading</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="mod-form">
+        <div>
+            <label for="radius">Give radius of circle</label>
+            <input type="number" min='0' max='100' id="radius" placeholder="give radius of circle">
+        </div>
+        <div>
+            <label for="c-count">give child count of circle</label>
+            <input type="number" min="0" max="20" id="c-count" placeholder="give child count of circle">
+        </div>
+        <div>
+            <label for="speed">give speed of rotation out of 10</label>
+            <input type="number" min='0' max='10' id="speed" placeholder="give speed of rotation out of 10">
+        </div>
+        <div>
+            <button type="submit" id="s-btn">start</button>
+            <button type="reset">reset values</button>
+        </div>
+    </form>
+
+    <div class="container">
+        <div class="load-cont"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
