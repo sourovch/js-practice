@@ -13,6 +13,9 @@ function App() {
     const username = usernameRef.current.value;
     const password = passwordRef.current.value;
 
+    usernameRef.current.value = '';
+    passwordRef.current.value = '';
+
     alert(`username: ${username}\npassword: ${password}`);
   }
 
